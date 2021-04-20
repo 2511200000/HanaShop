@@ -53,8 +53,7 @@ public class AddCartItemServlet extends HttpServlet {
                     cart = new CartObject();
                 }
                 String item = request.getParameter("txtItemID");
-
-                TblItemDTO dto = dao.findItemByID(item);
+                 TblItemDTO dto = dao.findItemByID(item);
                 dto.setQuantity(1);
                 cart.addtemToCart(dto);
                 session.setAttribute("CUSTCART", cart);
