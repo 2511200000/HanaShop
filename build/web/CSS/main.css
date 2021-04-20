@@ -1,0 +1,238 @@
+/*login.html*/
+.loginPage{
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid rgb(0,0,238);
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+}
+.loginForm{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 30px;
+}
+.btLogin{
+    margin-top: 20px;
+}
+#txtTextfile{
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+}
+#buttonLogin{
+    border-radius: 10px;
+    width: 105%;
+    height: 30px;
+    background-color: blue;
+    font-size: medium;
+}
+#buttonLoginReset{
+    border-radius: 10px;
+    width: 105%;
+    height: 30px;
+    background-color: red;
+    font-size: medium;  
+}
+.imageHanaShop{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2)),
+                    url(https://vncosme.com/wp-content/uploads/2018/01/hana-shop.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain; 
+}
+.imageHanaShop a{
+    text-decoration: none;
+    margin-left: 1480px;
+}
+.imageHanaShopBottom{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2)),
+                    url(https://kynguyenlamdep.com/wp-content/uploads/2020/04/hinh-nen-trang-622x1024.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain; 
+}
+
+
+/*displayAdmin */
+.hearderDisplayAdmin{
+    min-height: 150px;
+    /* background-color: rgb(0,0,255,0.3);  */
+    background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+    display: flex;
+    justify-content: space-between;
+}
+.nav-listAdmin {
+   margin-top: 20px;
+
+ 
+}
+.nav-itemAdmin {
+    color: #fff;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+   
+}
+.nav-itemAdmin a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.h1Admin{
+    /* background-color: rgb(0,0,255,0.3);  */
+    background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+    text-align: center;
+}
+.searchAdmin{
+    background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+    border: 3px solid rgb(0,0,238);
+    border-radius: 10px;
+    display: flex;
+    width: 800px;
+    margin-left: 380px;
+}
+.textSearch{
+    margin-left: 60px;
+}
+.searchAdminList{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 30px;
+}
+.buttonSearchAdmin{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.searchButton{
+    font-size: medium;
+}
+.displayAdmin{
+    margin-top: 20px;
+    text-align: center;
+}
+.tableAdmin{
+    border: 0px solid black;
+    border-radius: 10px;
+    
+}
+.columnAdmin{
+    width: 122px;
+    border-radius: 10px;
+    color: blue;
+}
+.rowAdmin{
+    border-radius: 10px;
+}
+.createNewItem a{
+   
+    text-decoration: none;
+   margin-left: 40px;
+}
+.createNewItem{
+    background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+    border: 3px solid rgb(0,0,238);
+    width: 200px;
+    padding: 20px;
+}
+
+
+/*displayUser*/
+.displayUser{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    margin-left: 95px;
+}
+.itemUser{
+    text-align: center;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+}
+.itemUser img{
+    width: 130px;
+    height: 100px;
+}
+.detaliItem{
+    margin-top: 20px;
+}
+.displayItem{
+    margin-top: 20px;
+}
+.buttonOrder{
+    margin-top: 20px;
+    background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+}
+.Order{
+    font-size: medium;
+}
+
+
+/*createNewItem*/
+.createPage{
+    margin-left: 600px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 2px solid rgb(0,0,238);
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+}
+.createForm{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 30px;
+}
+.buttonCreate{
+    margin-top: 10px;
+}
+.backgoundCreateItem{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2)),
+    url(https://vncosme.com/wp-content/uploads/2018/01/hana-shop.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain; 
+}
+/* .buttonHistory{
+    margin-top: 20px;
+    background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+    border: 3px solid rgb(0,0,238);
+    width: 248px;
+    padding: 20px;
+    font-size: large;
+} */
+
+
+
+.invalid{
+    background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2));
+    background-repeat: no-repeat;
+   height: 400px;
+}
+.Error{
+    margin-top: 200px;
+}
+
+/*search.jsp*/
+.Fail{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(0,rgba(255,0,0,0.2), rgba(0,0,255,0.2)),
+    url(https://vncosme.com/wp-content/uploads/2018/01/hana-shop.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain; 
+}
